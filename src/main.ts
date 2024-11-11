@@ -4,7 +4,7 @@ import { createApp } from 'vue'
 import App from './App.vue'
 import router from './router'
 import VueMatomo from 'vue-matomo'
-
+// @ts-ignore: Could not find a declaration file for module 'vue-matomo'
 const app = createApp(App)
 
 app.use(VueMatomo, {
