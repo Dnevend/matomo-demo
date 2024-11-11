@@ -9,7 +9,8 @@ const app = createApp(App)
 
 app.use(VueMatomo, {
     host: 'https://dnevendsite.matomo.cloud/',
-    siteId: 2
+    siteId: 2,
+    router: router,
 });
 
 app.use(router)

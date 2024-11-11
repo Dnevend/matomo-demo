@@ -4,7 +4,7 @@ import HelloWorld from "./components/HelloWorld.vue";
 
 const handleMiao = () => {
   // @ts-ignore
-  window._paq.push(["trackEvent", "Button", "Click", "Game", "miaolegemi"]);
+  window._paq.push(["trackEvent", "Button", "Click", "Game"]);
   // @ts-ignore
   console.log("miao", window._paq);
 };
